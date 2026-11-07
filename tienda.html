@@ -1,65 +1,263 @@
 <!DOCTYPE html>
-<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#070817"><title>KrmaVerso Store | Catálogo digital</title>
-<link rel="preconnect" href="https://cdn.simpleicons.org"><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070817">
+<title>KrmaVerso Store | Catálogo digital</title>
+<link rel="preconnect" href="https://cdn.simpleicons.org">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#060716;--cyan:#00eaff;--purple:#9b5cff;--muted:#b9bfd8;--line:#39346f;--card:#11142b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% -10%,#342064 0,#11102d 35%,#060716 75%);color:#f7f7ff;font-family:Inter,Arial,sans-serif}header{position:sticky;top:0;z-index:5;background:#070817ed;border-bottom:1px solid #373064;backdrop-filter:blur(12px)}nav{max-width:1200px;margin:auto;padding:16px 5%;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}nav a{color:var(--cyan);text-decoration:none;font-weight:800}.brand{font-family:Orbitron,sans-serif;letter-spacing:.04em}.wrap{max-width:1200px;margin:auto;padding:30px 5% 70px}h1,h2{font-family:Orbitron,sans-serif}h1{font-size:clamp(1.7rem,5vw,2.6rem);color:var(--cyan);margin:12px 0}h2{font-size:clamp(1.1rem,3vw,1.4rem);color:#d3b5ff;margin:42px 0 16px}.intro{color:var(--muted);line-height:1.7;max-width:800px}.hero{border:1px solid #4a3d8c;border-radius:20px;padding:24px;background:linear-gradient(130deg,#101a36,#211344 60%,#10162f);box-shadow:0 0 30px #7c4dff24}.payment{margin:28px 0 38px;padding:clamp(18px,4vw,30px);border-radius:22px;border:1px solid #6352a7;background:linear-gradient(135deg,#11162f,#211344 58%,#101b35);box-shadow:0 0 28px #7c4dff25;display:grid;grid-template-columns:1.15fr .85fr;gap:25px;align-items:center}.payment h2{margin:12px 0;color:#fff}.payment p{color:#d4d7ec;line-height:1.65}.secure{display:inline-flex;align-items:center;gap:8px;border:1px solid #29d69a66;background:#0b3b2b55;color:#7af0bd;border-radius:30px;padding:8px 12px;font-size:.78rem;font-weight:800}.wompi{font-family:Orbitron,sans-serif;font-size:1.15rem;margin-top:13px}.pay{display:inline-block;margin-top:8px;padding:12px 17px;border-radius:10px;background:linear-gradient(90deg,var(--cyan),#b28aff);color:#080817;text-decoration:none;font-weight:800}.qr{background:#fff;border-radius:18px;padding:14px;text-align:center;max-width:330px;width:100%;margin:auto}.qr img{display:block;width:min(100%,270px);height:auto;margin:auto}.qr strong{display:block;color:#151525;margin:12px 0 6px}.qr a{color:#32206c;overflow-wrap:anywhere;font-size:.82rem;font-weight:800}.paynote{font-size:.82rem!important;color:#b9c2df!important}.tools{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.tools input,.tools select{background:#11142b;border:1px solid #49417d;color:#fff;border-radius:10px;padding:12px;font:inherit;min-width:0}.tools input{flex:1;min-width:190px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:15px}.item{background:linear-gradient(145deg,#171a39,#0d1022);border:1px solid #37336d;border-radius:16px;padding:17px;display:flex;flex-direction:column;min-height:220px;transition:.2s}.item:hover{transform:translateY(-3px);border-color:var(--cyan);box-shadow:0 8px 25px #00eaff16}.apphead{display:flex;align-items:center;gap:12px;margin-bottom:12px}.appicon{width:48px;height:48px;border-radius:13px;background:#fff;display:grid;place-items:center;flex:none;padding:8px}.appicon img{width:100%;height:100%;object-fit:contain}.fallback{font-size:25px}.tag{font-size:.7rem;color:var(--cyan);font-weight:800;letter-spacing:.06em}.item h3{margin:0;font-size:1rem}.item p{color:var(--muted);font-size:.87rem;line-height:1.5;margin:0 0 14px;flex:1}.buy{display:inline-block;text-align:center;margin-top:auto;padding:10px 12px;border-radius:9px;background:linear-gradient(90deg,var(--cyan),#b28aff);color:#080817;text-decoration:none;font-size:.84rem;font-weight:800}.notice{margin-top:30px;border:1px solid #67519d;background:#171333;padding:17px;border-radius:12px;color:#d8d4ef;font-size:.88rem;line-height:1.65}footer{text-align:center;color:var(--muted);padding:25px;border-top:1px solid #29264d}footer a{color:var(--cyan)}.empty{color:var(--muted);padding:20px;display:none}@media(max-width:720px){.payment{grid-template-columns:1fr}.qr{max-width:290px}nav{justify-content:center}.wrap{padding-top:22px}}
-</style></head><body>
-<header><nav><a class="brand" href="index.html">🌌 KRMAVERSO STORE</a><a href="juegos.html">🎮 Juegos</a><a href="aplicaciones.html">📱 Aplicaciones</a><a href="index.html">⌂ Inicio</a></nav></header>
-<main class="wrap"><section class="hero"><h1>🛍️ Catálogo KrmaVerso</h1><p class="intro">Explora nuestras plataformas, aplicaciones, herramientas digitales, videojuegos y productos tecnológicos. Selecciona un servicio para consultar precio, disponibilidad, duración y condiciones por WhatsApp.</p></section>
-<!-- MÉTODO DE PAGO WOMPI: se conserva el QR y el enlace proporcionados por el comercio -->
-<section class="payment" id="pago-wompi" aria-label="Pago con Wompi"><div><span class="secure">🛡️ PAGO EN CHECKOUT DE WOMPI</span><div class="wompi">WOMPI · KRMAVERSO STORE</div><h2>¡Paga fácil y de forma segura!</h2><p>Escanea el código QR o abre el enlace de pago. El proceso se realiza directamente en el checkout de Wompi.</p><a class="pay" href="https://checkout.wompi.co/l/VPOS_P4mjTE" target="_blank" rel="noopener noreferrer">💳 Abrir pago seguro con Wompi ↗</a><p class="paynote">Antes de pagar, confirma con nosotros el producto y el valor exacto. Verifica que el checkout muestre el importe correcto antes de autorizar la transacción.</p></div><div class="qr"><img src="data:image/png;base64,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" alt="Código QR de pago Wompi KrmaVerso Store"><strong>Escanea para pagar con Wompi</strong><a href="https://checkout.wompi.co/l/VPOS_P4mjTE" target="_blank" rel="noopener noreferrer">https://checkout.wompi.co/l/VPOS_P4mjTE</a></div></section>
-<h2 id="catalogo">✨ Todas nuestras aplicaciones y servicios</h2><div class="tools"><input id="buscar" type="search" placeholder="Buscar Netflix, Spotify, Canva..." aria-label="Buscar producto"><select id="categoria" aria-label="Filtrar por categoría"><option value="">Todas las categorías</option></select></div><div class="grid" id="productos"></div><p class="empty" id="vacio">No encontramos productos con esa búsqueda.</p>
-<div class="notice"><b>Información importante:</b> Los precios, disponibilidad, duración, modalidad, garantía y condiciones se confirman antes del pago. KrmaVerso Store es un comercio independiente y no representa oficialmente a las marcas mencionadas. Solo se ofrecerán productos, suscripciones y licencias legítimas cuya distribución esté autorizada. Nunca compartas contraseñas, datos de tarjeta ni códigos de verificación por WhatsApp.</div></main>
+:root{--bg:#060716;--cyan:#00eaff;--purple:#9b5cff;--muted:#b9bfd8;--line:#39346f;--card:#11142b}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 50% -10%,#342064 0,#11102d 35%,#060716 75%);color:#f7f7ff;font-family:Inter,Arial,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#070817ed;border-bottom:1px solid #373064;backdrop-filter:blur(12px)}
+nav{max-width:1200px;margin:auto;padding:16px 5%;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+nav a{color:var(--cyan);text-decoration:none;font-weight:800}
+.brand{font-family:Orbitron,sans-serif;letter-spacing:.04em}
+.wrap{max-width:1200px;margin:auto;padding:30px 5% 70px}
+h1,h2{font-family:Orbitron,sans-serif}
+h1{font-size:clamp(1.7rem,5vw,2.6rem);color:var(--cyan);margin:12px 0}
+h2{font-size:clamp(1.1rem,3vw,1.4rem);color:#d3b5ff;margin:42px 0 16px}
+.intro{color:var(--muted);line-height:1.7;max-width:800px}
+.hero{border:1px solid #4a3d8c;border-radius:20px;padding:24px;background:linear-gradient(130deg,#101a36,#211344 60%,#10162f);box-shadow:0 0 30px #7c4dff24}
+.payment{margin:28px 0 38px;padding:clamp(18px,4vw,30px);border-radius:22px;border:1px solid #6352a7;background:linear-gradient(135deg,#11162f,#211344 58%,#101b35);box-shadow:0 0 28px #7c4dff25;display:grid;grid-template-columns:1.15fr .85fr;gap:25px;align-items:center}
+.payment h2{margin:12px 0;color:#fff}
+.payment p{color:#d4d7ec;line-height:1.65}
+.secure{display:inline-flex;align-items:center;gap:8px;border:1px solid #29d69a66;background:#0b3b2b55;color:#7af0bd;border-radius:30px;padding:8px 12px;font-size:.78rem;font-weight:800}
+.wompi{font-family:Orbitron,sans-serif;font-size:1.15rem;margin-top:13px}
+.pay{display:inline-block;margin-top:8px;padding:12px 17px;border-radius:10px;background:linear-gradient(90deg,var(--cyan),#b28aff);color:#080817;text-decoration:none;font-weight:800}
+.qr{background:#fff;border-radius:18px;padding:14px;text-align:center;max-width:330px;width:100%;margin:auto}
+.qr img{display:block;width:min(100%,270px);height:auto;margin:auto}
+.qr strong{display:block;color:#151525;margin:12px 0 6px}
+.qr a{color:#32206c;overflow-wrap:anywhere;font-size:.82rem;font-weight:800}
+.paynote{font-size:.82rem!important;color:#b9c2df!important}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.tools input,.tools select{background:#11142b;border:1px solid #49417d;color:#fff;border-radius:10px;padding:12px;font:inherit;min-width:0}
+.tools input{flex:1;min-width:190px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:15px}
+.item{background:linear-gradient(145deg,#171a39,#0d1022);border:1px solid #37336d;border-radius:16px;padding:17px;display:flex;flex-direction:column;min-height:220px;transition:.2s}
+.item:hover{transform:translateY(-3px);border-color:var(--cyan);box-shadow:0 8px 25px #00eaff16}
+.apphead{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.appicon{width:48px;height:48px;border-radius:13px;background:#fff;display:grid;place-items:center;flex:none;padding:8px}
+.appicon img{width:100%;height:100%;object-fit:contain}
+.fallback{font-size:25px}
+.tag{font-size:.7rem;color:var(--cyan);font-weight:800;letter-spacing:.06em}
+.item h3{margin:0;font-size:1rem}
+.price{font-family:Orbitron,sans-serif;font-size:1.12rem;font-weight:800;color:#00eaff;margin:5px 0 12px;text-shadow:0 0 12px #00eaff35}
+.price small{font:600 .68rem Inter,Arial,sans-serif;color:#b9bfd8;text-shadow:none}
+.item p{color:var(--muted);font-size:.87rem;line-height:1.5;margin:0 0 14px;flex:1}
+.buy{display:inline-block;text-align:center;margin-top:auto;padding:10px 12px;border-radius:9px;background:linear-gradient(90deg,var(--cyan),#b28aff);color:#080817;text-decoration:none;font-size:.84rem;font-weight:800}
+.notice{margin-top:30px;border:1px solid #67519d;background:#171333;padding:17px;border-radius:12px;color:#d8d4ef;font-size:.88rem;line-height:1.65}
+footer{text-align:center;color:var(--muted);padding:25px;border-top:1px solid #29264d}
+footer a{color:var(--cyan)}
+.empty{color:var(--muted);padding:20px;display:none}
+@media(max-width:720px){.payment{grid-template-columns:1fr}.qr{max-width:290px}nav{justify-content:center}.wrap{padding-top:22px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<a class="brand" href="index.html">🌌 KRMAVERSO STORE</a>
+<a href="juegos.html">🎮 Juegos</a>
+<a href="aplicaciones.html">📱 Aplicaciones</a>
+<a href="index.html">⌂ Inicio</a>
+</nav>
+</header>
+
+<main class="wrap">
+<section class="hero">
+<h1>🛍️ Catálogo KrmaVerso</h1>
+<p class="intro">Explora nuestras plataformas, aplicaciones, herramientas digitales, videojuegos y productos tecnológicos. Precios al por menor en pesos colombianos (COP). Selecciona un servicio para consultar disponibilidad, duración y condiciones.</p>
+</section>
+
+<section class="payment" id="pago-wompi" aria-label="Pago con Wompi">
+<div>
+<span class="secure">🛡️ PAGO EN CHECKOUT DE WOMPI</span>
+<div class="wompi">WOMPI · KRMAVERSO STORE</div>
+<h2>¡Paga fácil y de forma segura!</h2>
+<p>Escanea el código QR o abre el enlace de pago. El proceso se realiza directamente en el checkout de Wompi.</p>
+<a class="pay" href="https://checkout.wompi.co/l/VPOS_P4mjTE" target="_blank" rel="noopener noreferrer">💳 Abrir pago seguro con Wompi ↗</a>
+<p class="paynote">Antes de pagar, confirma con nosotros el producto y el valor exacto. Verifica que el checkout muestre el importe correcto antes de autorizar la transacción.</p>
+</div>
+<div class="qr">
+<img src="data:image/png;base64,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" alt="Código QR de pago Wompi KrmaVerso Store">
+<strong>Escanea para pagar con Wompi</strong>
+<a href="https://checkout.wompi.co/l/VPOS_P4mjTE" target="_blank" rel="noopener noreferrer">https://checkout.wompi.co/l/VPOS_P4mjTE</a>
+</div>
+</section>
+
+<h2 id="catalogo">✨ Todas nuestras aplicaciones y servicios</h2>
+<div class="tools">
+<input id="buscar" type="search" placeholder="Buscar Netflix, Spotify, Canva..." aria-label="Buscar producto">
+<select id="categoria" aria-label="Filtrar por categoría">
+<option value="">Todas las categorías</option>
+</select>
+</div>
+<div class="grid" id="productos"></div>
+<p class="empty" id="vacio">No encontramos productos con esa búsqueda.</p>
+
+<div class="notice"><b>Información importante:</b> Los precios del listado están expresados en COP. Los valores tomados del video incluyen el incremento de $3.000 solicitado. Los productos sin precio confirmado aparecen como “Consultar precio”. Antes de pagar, confirma disponibilidad, duración, modalidad, garantía y condiciones. KrmaVerso Store es un comercio independiente y no representa oficialmente a las marcas mencionadas. Solo se ofrecerán productos, suscripciones y licencias legítimas cuya distribución esté autorizada. Nunca compartas contraseñas, datos de tarjeta ni códigos de verificación por WhatsApp.</div>
+</main>
+
 <footer>© 2026 KrmaVerso Store · WhatsApp: <a href="https://wa.me/573215201208" target="_blank" rel="noopener">321 520 1208</a></footer>
+
 <script>
 const productos = [
-  {nombre:'Netflix', icono:'netflix', categoria:'Entretenimiento', descripcion:'Películas y series. Consulta planes y modalidades.'},
-  {nombre:'Disney+', icono:'disneyplus', categoria:'Entretenimiento', descripcion:'Contenido de Disney, Pixar, Marvel y más.'},
-  {nombre:'Max', icono:'hbo', categoria:'Entretenimiento', descripcion:'Series, películas y entretenimiento.'},
-  {nombre:'Amazon Prime Video', icono:'primevideo', categoria:'Entretenimiento', descripcion:'Películas y series en streaming.'},
-  {nombre:'Paramount+', icono:'paramountplus', categoria:'Entretenimiento', descripcion:'Series, películas y contenido exclusivo.'},
-  {nombre:'ViX Premium', icono:'vix', categoria:'Entretenimiento', descripcion:'Entretenimiento y contenido en español.'},
-  {nombre:'Crunchyroll', icono:'crunchyroll', categoria:'Entretenimiento', descripcion:'Anime y simulcasts.'},
-  {nombre:'Plex', icono:'plex', categoria:'Entretenimiento', descripcion:'Plataforma multimedia.'},
-  {nombre:'Jellyfin', icono:'jellyfin', categoria:'Entretenimiento', descripcion:'Servidor multimedia.'},
-  {nombre:'Tele Latino', icono:'tv', categoria:'Entretenimiento', descripcion:'Consulta disponibilidad y modalidad.'},
-  {nombre:'Viki', icono:'rakuten', categoria:'Entretenimiento', descripcion:'Series y dramas internacionales.'},
-  {nombre:'Pornhub / Hub', icono:'pornhub', categoria:'Entretenimiento', descripcion:'Consulta disponibilidad y condiciones.'},
-  {nombre:'Spotify', icono:'spotify', categoria:'Música', descripcion:'Música y podcasts.'},
-  {nombre:'Deezer', icono:'deezer', categoria:'Música', descripcion:'Música y listas personalizadas.'},
-  {nombre:'YouTube Premium', icono:'youtube', categoria:'Música', descripcion:'Videos y música sin anuncios, según plan.'},
-  {nombre:'Combo Netflix + Spotify', icono:'spotify', categoria:'Combos', descripcion:'Consulta modalidades y disponibilidad.'},
-  {nombre:'ChatGPT Plus', icono:'openai', categoria:'Inteligencia artificial', descripcion:'Herramientas de IA. Consulta planes y acceso.'},
-  {nombre:'ChatGPT Go', icono:'openai', categoria:'Inteligencia artificial', descripcion:'Consulta modalidad y disponibilidad.'},
-  {nombre:'Gemini IA', icono:'googlegemini', categoria:'Inteligencia artificial', descripcion:'Asistente de inteligencia artificial.'},
-  {nombre:'Canva Pro', icono:'canva', categoria:'Diseño y productividad', descripcion:'Diseño gráfico y creación de contenido.'},
-  {nombre:'CapCut Pro', icono:'capcut', categoria:'Diseño y productividad', descripcion:'Edición de video y creación de contenido.'},
-  {nombre:'Filmora', icono:'wondershare', categoria:'Diseño y productividad', descripcion:'Edición de video.'},
-  {nombre:'Microsoft Office 365', icono:'microsoftoffice', categoria:'Diseño y productividad', descripcion:'Herramientas de productividad.'},
-  {nombre:'Google One 5TB', icono:'googleone', categoria:'Diseño y productividad', descripcion:'Almacenamiento en la nube.'},
-  {nombre:'Duolingo Super', icono:'duolingo', categoria:'Educación', descripcion:'Aprendizaje de idiomas.'},
-  {nombre:'IPTV completa 6 meses', icono:'tv', categoria:'TV e IPTV', descripcion:'Consulta canales, compatibilidad y duración.'},
-  {nombre:'IPTV 1 mes', icono:'tv', categoria:'TV e IPTV', descripcion:'Consulta compatibilidad y modalidad.'},
-  {nombre:'IPTV Elite 1 año', icono:'tv', categoria:'TV e IPTV', descripcion:'Consulta disponibilidad y dispositivos.'},
-  {nombre:'DIRECTV GO Full', icono:'directv', categoria:'TV e IPTV', descripcion:'Televisión y contenido en streaming.'},
-  {nombre:'Flujo TV 1 día', icono:'tv', categoria:'TV e IPTV', descripcion:'Consulta compatibilidad y disponibilidad.'},
-  {nombre:'XuperTV ilimitado', icono:'tv', categoria:'TV e IPTV', descripcion:'Consulta dispositivos y condiciones.'},
-  {nombre:'XuperTV Android 7 días', icono:'android', categoria:'TV e IPTV', descripcion:'Consulta disponibilidad.'},
-  {nombre:'WIN Sports+', icono:'tv', categoria:'TV e IPTV', descripcion:'Contenido deportivo.'},
-  {nombre:'Surfshark VPN', icono:'surfshark', categoria:'Seguridad y VPN', descripcion:'Privacidad y conexión VPN.'},
-  {nombre:'Xbox Game Pass', icono:'xbox', categoria:'Videojuegos', descripcion:'Membresía de videojuegos.'},
-  {nombre:'Steam', icono:'steam', categoria:'Videojuegos', descripcion:'Juegos, tarjetas y recargas.'},
-  {nombre:'PlayStation', icono:'playstation', categoria:'Videojuegos', descripcion:'Membresías y contenido digital.'},
-  {nombre:'EA SPORTS FC 26 PS4', icono:'easports', categoria:'Videojuegos', descripcion:'Juego digital para PS4; consulta disponibilidad.'},
-  {nombre:'GTA V', icono:'rockstargames', categoria:'Videojuegos', descripcion:'Juego digital; consulta plataforma y disponibilidad.'},
-  {nombre:'Celulares nuevos y usados', icono:'smartphone', categoria:'Tecnología', descripcion:'Equipos sujetos a disponibilidad.'},
-  {nombre:'Accesorios tecnológicos', icono:'headphones', categoria:'Tecnología', descripcion:'Periféricos y accesorios.'},
-  {nombre:'Recargas para juegos', icono:'gamepad2', categoria:'Videojuegos', descripcion:'Consulta tu juego y valor de recarga.'}
+{nombre:'Netflix — Perfil (33 días)',icono:'netflix',categoria:'Entretenimiento',descripcion:'Perfil por 33 días.',precio:12500},
+{nombre:'Netflix — Plan/perfil (33 días)',icono:'netflix',categoria:'Entretenimiento',descripcion:'Plan o perfil por 33 días.',precio:15200},
+{nombre:'Netflix — Plan/perfil (29 días)',icono:'netflix',categoria:'Entretenimiento',descripcion:'Plan o perfil por 29 días.',precio:14500},
+{nombre:'Netflix — Internacional',icono:'netflix',categoria:'Entretenimiento',descripcion:'Modalidad internacional.',precio:12500},
+{nombre:'Netflix — Perfil privado',icono:'netflix',categoria:'Entretenimiento',descripcion:'Perfil privado según disponibilidad.',precio:18000},
+{nombre:'Amazon Prime Video — Pantalla',icono:'primevideo',categoria:'Entretenimiento',descripcion:'Acceso por pantalla.',precio:7000},
+{nombre:'Prime Video — Otra modalidad',icono:'primevideo',categoria:'Entretenimiento',descripcion:'Modalidad adicional mostrada en catálogo.',precio:5000},
+{nombre:'Max / HBO Max',icono:'hbo',categoria:'Entretenimiento',descripcion:'Series, películas y documentales.',precio:10000},
+{nombre:'Disney+ — Premium',icono:'disneyplus',categoria:'Entretenimiento',descripcion:'Modalidad Premium.',precio:9000},
+{nombre:'Disney+ — Estándar',icono:'disneyplus',categoria:'Entretenimiento',descripcion:'Modalidad Estándar.',precio:5900},
+{nombre:'Paramount+ — Pantalla',icono:'paramountplus',categoria:'Entretenimiento',descripcion:'Acceso por pantalla.',precio:8000},
+{nombre:'ViX Premium — Pantalla',icono:'vix',categoria:'Entretenimiento',descripcion:'Acceso Premium por pantalla.',precio:6000},
+{nombre:'Crunchyroll — Pantalla',icono:'crunchyroll',categoria:'Entretenimiento',descripcion:'Acceso por pantalla.',precio:6000},
+{nombre:'Plex Premium — Pantalla',icono:'plex',categoria:'Entretenimiento',descripcion:'Acceso por pantalla.',precio:7000},
+{nombre:'Jellyfin',icono:'jellyfin',categoria:'Entretenimiento',descripcion:'Plan o acceso según disponibilidad.',precio:9500},
+{nombre:'Tele Latino',icono:'tv',categoria:'Entretenimiento',descripcion:'Plan sujeto a disponibilidad.',precio:10000},
+{nombre:'Viki — Pantalla',icono:'rakuten',categoria:'Entretenimiento',descripcion:'Acceso por pantalla.',precio:8500},
+{nombre:'YouTube Premium — Familiar',icono:'youtube',categoria:'Música',descripcion:'Plan familiar.',precio:17500},
+{nombre:'YouTube Premium — Invitación',icono:'youtube',categoria:'Música',descripcion:'Acceso por invitación.',precio:16000},
+{nombre:'Spotify Premium — 3 meses',icono:'spotify',categoria:'Música',descripcion:'Duración de 3 meses.',precio:21000},
+{nombre:'Spotify Premium — 6 meses',icono:'spotify',categoria:'Música',descripcion:'Duración de 6 meses.',precio:39000},
+{nombre:'Spotify Premium — 1 año',icono:'spotify',categoria:'Música',descripcion:'Duración de 1 año.',precio:83000},
+{nombre:'Spotify Premium — Plan regular',icono:'spotify',categoria:'Música',descripcion:'Consulta modalidad y disponibilidad.',precio:15000},
+{nombre:'Deezer Premium',icono:'deezer',categoria:'Música',descripcion:'Plan Premium.',precio:8000},
+{nombre:'Combo Netflix + Spotify',icono:'spotify',categoria:'Combos',descripcion:'Combo según modalidad disponible.',precio:21000},
+{nombre:'Gemini IA — 12 meses',icono:'googlegemini',categoria:'Inteligencia artificial',descripcion:'Plan de 12 meses; confirmar modalidad exacta.',precio:33000},
+{nombre:'Gemini IA — 1 mes',icono:'googlegemini',categoria:'Inteligencia artificial',descripcion:'Plan de 1 mes.',precio:15000},
+{nombre:'ChatGPT Go — Compartida',icono:'openai',categoria:'Inteligencia artificial',descripcion:'Acceso compartido según condiciones.',precio:13000},
+{nombre:'ChatGPT Plus',icono:'openai',categoria:'Inteligencia artificial',descripcion:'Plan según modalidad contratada.',precio:24000},
+{nombre:'Canva Pro — 3 meses',icono:'canva',categoria:'Diseño y productividad',descripcion:'Duración de 3 meses.',precio:12000},
+{nombre:'Canva Pro',icono:'canva',categoria:'Diseño y productividad',descripcion:'Herramientas de diseño.',precio:6000},
+{nombre:'Microsoft Office 365 — 1 año',icono:'microsoftoffice',categoria:'Diseño y productividad',descripcion:'Licencia o acceso por 1 año.',precio:19000},
+{nombre:'Google One — 5TB',icono:'googleone',categoria:'Diseño y productividad',descripcion:'Almacenamiento en la nube.',precio:15000},
+{nombre:'Filmora',icono:'wondershare',categoria:'Diseño y productividad',descripcion:'Herramientas de edición de video.',precio:20000},
+{nombre:'CapCut Pro',icono:'capcut',categoria:'Diseño y productividad',descripcion:'Herramientas de edición y creación.',precio:16000},
+{nombre:'Duolingo Super',icono:'duolingo',categoria:'Educación',descripcion:'Plan Super.',precio:21000},
+{nombre:'IPTV — Completa 6 meses',icono:'tv',categoria:'TV e IPTV',descripcion:'Servicio por 6 meses.',precio:36000},
+{nombre:'IPTV — 1 mes/pantalla',icono:'tv',categoria:'TV e IPTV',descripcion:'Acceso por 1 mes y pantalla.',precio:9500},
+{nombre:'IPTV Elite — 1 año',icono:'tv',categoria:'TV e IPTV',descripcion:'Servicio por 1 año.',precio:48000},
+{nombre:'DIRECTV GO Full — opción 1',icono:'directv',categoria:'TV e IPTV',descripcion:'Plan Full.',precio:19000},
+{nombre:'DIRECTV GO Full — opción 2',icono:'directv',categoria:'TV e IPTV',descripcion:'Otra opción Full mostrada.',precio:38000},
+{nombre:'Flujo TV — 1 día',icono:'tv',categoria:'TV e IPTV',descripcion:'Acceso por 1 día.',precio:9500},
+{nombre:'XuperTV — TV ilimitado',icono:'tv',categoria:'TV e IPTV',descripcion:'Modalidad ilimitada.',precio:20000},
+{nombre:'XuperTV — Android 7 días',icono:'android',categoria:'TV e IPTV',descripcion:'Acceso por 7 días para Android.',precio:3000},
+{nombre:'WIN Sports+',icono:'tv',categoria:'TV e IPTV',descripcion:'Contenido deportivo.',precio:35000},
+{nombre:'Surfshark VPN',icono:'surfshark',categoria:'Seguridad y VPN',descripcion:'Plan VPN; confirmar duración exacta.',precio:18000},
+{nombre:'Xbox Game Pass',icono:'xbox',categoria:'Videojuegos',descripcion:'Plan; confirmar duración y modalidad.',precio:48000},
+{nombre:'EA SPORTS FC 26 — Digital PS4',icono:'easports',categoria:'Videojuegos',descripcion:'Versión digital para PS4.',precio:93000},
+{nombre:'Grand Theft Auto V — Digital',icono:'rockstargames',categoria:'Videojuegos',descripcion:'Versión digital; confirmar plataforma.',precio:102000},
+{nombre:'Steam — Recargas y tarjetas',icono:'steam',categoria:'Videojuegos',descripcion:'Consulta saldo y denominaciones disponibles.',precio:null},
+{nombre:'PlayStation — Recargas y contenido',icono:'playstation',categoria:'Videojuegos',descripcion:'Consulta producto y disponibilidad.',precio:null},
+{nombre:'Recargas para juegos',icono:'gamepad2',categoria:'Videojuegos',descripcion:'Consulta juego y valor de recarga.',precio:null},
+{nombre:'Celulares nuevos y usados',icono:'smartphone',categoria:'Tecnología',descripcion:'Equipos sujetos a disponibilidad.',precio:null},
+{nombre:'Accesorios tecnológicos',icono:'headphones',categoria:'Tecnología',descripcion:'Periféricos y accesorios sujetos a disponibilidad.',precio:null},
+{nombre:'Pornhub / Hub — 1 mes',icono:'pornhub',categoria:'Entretenimiento',descripcion:'Plan de 1 mes; confirmar condiciones y elegibilidad.',precio:9500}
 ];
-const iconosFallback={'netflix':'🎬','disneyplus':'🏰','hbo':'🎞️','primevideo':'📺','paramountplus':'⭐','vix':'📺','crunchyroll':'🍥','plex':'🎥','jellyfin':'🎞️','tv':'📡','rakuten':'🎭','pornhub':'🔞','spotify':'🎵','deezer':'🎧','youtube':'▶️','openai':'🤖','googlegemini':'✨','canva':'🎨','capcut':'✂️','wondershare':'🎬','microsoftoffice':'📄','googleone':'☁️','duolingo':'🦉','surfshark':'🛡️','xbox':'🎮','steam':'🕹️','playstation':'🎮','easports':'⚽','rockstargames':'🚗','smartphone':'📱','headphones':'🎧','gamepad2':'🎮','android':'🤖'};
+
+const iconosFallback={
+'netflix':'🎬','disneyplus':'🏰','hbo':'🎞️','primevideo':'📺',
+'paramountplus':'⭐','vix':'📺','crunchyroll':'🍥','plex':'🎥',
+'jellyfin':'🎞️','tv':'📡','rakuten':'🎭','pornhub':'🔞',
+'spotify':'🎵','deezer':'🎧','youtube':'▶️','openai':'🤖',
+'googlegemini':'✨','canva':'🎨','capcut':'✂️','wondershare':'🎬',
+'microsoftoffice':'📄','googleone':'☁️','duolingo':'🦉',
+'surfshark':'🛡️','xbox':'🎮','steam':'🕹️','playstation':'🎮',
+'easports':'⚽','rockstargames':'🚗','smartphone':'📱',
+'headphones':'🎧','gamepad2':'🎮','android':'🤖'
+};
+
 const wa='https://wa.me/573215201208?text=';
-const grid=document.getElementById('productos'),search=document.getElementById('buscar'),filter=document.getElementById('categoria'),empty=document.getElementById('vacio');
-[...new Set(productos.map(p=>p.categoria))].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;filter.appendChild(o)});
-function dibujar(){const q=search.value.trim().toLowerCase(),cat=filter.value;const lista=productos.filter(p=>(!cat||p.categoria===cat)&&(p.nombre.toLowerCase().includes(q)||p.descripcion.toLowerCase().includes(q)||p.categoria.toLowerCase().includes(q)));grid.innerHTML='';lista.forEach(p=>{const card=document.createElement('article');card.className='item';const head=document.createElement('div');head.className='apphead';const icon=document.createElement('div');icon.className='appicon';const img=document.createElement('img');img.alt='';img.loading='lazy';img.src='https://cdn.simpleicons.org/'+encodeURIComponent(p.icono);const fallback=document.createElement('span');fallback.className='fallback';fallback.textContent=iconosFallback[p.icono]||'✨';img.onerror=()=>{img.replaceWith(fallback)};icon.appendChild(img);head.append(icon);const titlebox=document.createElement('div');const tag=document.createElement('span');tag.className='tag';tag.textContent=p.categoria.toUpperCase();const title=document.createElement('h3');title.textContent=p.nombre;titlebox.append(tag,title);head.append(titlebox);const desc=document.createElement('p');desc.textContent=p.descripcion;const a=document.createElement('a');a.className='buy';a.href=wa+encodeURIComponent('Hola KrmaVerso Store, quiero consultar precio y disponibilidad de: '+p.nombre);a.target='_blank';a.rel='noopener noreferrer';a.textContent='Consultar por WhatsApp';card.append(head,desc,a);grid.appendChild(card)});empty.style.display=lista.length?'none':'block'}
-search.addEventListener('input',dibujar);filter.addEventListener('change',dibujar);dibujar();
-</script></body></html>
+const grid=document.getElementById('productos');
+const search=document.getElementById('buscar');
+const filter=document.getElementById('categoria');
+const empty=document.getElementById('vacio');
+
+[...new Set(productos.map(p=>p.categoria))].sort().forEach(c=>{
+const o=document.createElement('option');
+o.value=c;
+o.textContent=c;
+filter.appendChild(o);
+});
+
+function dibujar(){
+const q=search.value.trim().toLowerCase();
+const cat=filter.value;
+const lista=productos.filter(p=>
+(!cat||p.categoria===cat)&&
+(p.nombre.toLowerCase().includes(q)||
+p.descripcion.toLowerCase().includes(q)||
+p.categoria.toLowerCase().includes(q))
+);
+grid.innerHTML='';
+lista.forEach(p=>{
+const card=document.createElement('article');
+card.className='item';
+
+const head=document.createElement('div');
+head.className='apphead';
+
+const icon=document.createElement('div');
+icon.className='appicon';
+
+const img=document.createElement('img');
+img.alt='';
+img.loading='lazy';
+img.src='https://cdn.simpleicons.org/'+encodeURIComponent(p.icono);
+
+const fallback=document.createElement('span');
+fallback.className='fallback';
+fallback.textContent=iconosFallback[p.icono]||'✨';
+
+img.onerror=()=>{img.replaceWith(fallback)};
+icon.appendChild(img);
+head.append(icon);
+
+const titlebox=document.createElement('div');
+const tag=document.createElement('span');
+tag.className='tag';
+tag.textContent=p.categoria.toUpperCase();
+
+const title=document.createElement('h3');
+title.textContent=p.nombre;
+titlebox.append(tag,title);
+head.append(titlebox);
+
+const desc=document.createElement('p');
+desc.textContent=p.descripcion;
+
+const price=document.createElement('div');
+price.className='price';
+price.innerHTML=p.precio===null?'Consultar precio':
+('$'+p.precio.toLocaleString('es-CO')+' <small>COP</small>');
+
+const a=document.createElement('a');
+a.className='buy';
+a.href=wa+encodeURIComponent(
+'Hola KrmaVerso Store, quiero consultar precio y disponibilidad de: '+
+p.nombre+
+(p.precio===null?'':' — $'+p.precio.toLocaleString('es-CO')+' COP')
+);
+a.target='_blank';
+a.rel='noopener noreferrer';
+a.textContent='Consultar por WhatsApp';
+
+card.append(head,desc,price,a);
+grid.appendChild(card);
+});
+empty.style.display=lista.length?'none':'block';
+}
+
+search.addEventListener('input',dibujar);
+filter.addEventListener('change',dibujar);
+dibujar();
+</script>
+</body>
+</html>
