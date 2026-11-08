@@ -1,0 +1,277 @@
+[
+  {
+    "id": "netflix-perfil-33-dias",
+    "nombre": "Netflix — Perfil (33 días)",
+    "precio": 12500
+  },
+  {
+    "id": "netflix-plan-perfil-33-dias",
+    "nombre": "Netflix — Plan/perfil (33 días)",
+    "precio": 15200
+  },
+  {
+    "id": "netflix-plan-perfil-29-dias",
+    "nombre": "Netflix — Plan/perfil (29 días)",
+    "precio": 14500
+  },
+  {
+    "id": "netflix-internacional",
+    "nombre": "Netflix — Internacional",
+    "precio": 12500
+  },
+  {
+    "id": "netflix-perfil-privado",
+    "nombre": "Netflix — Perfil privado",
+    "precio": 18000
+  },
+  {
+    "id": "amazon-prime-pantalla",
+    "nombre": "Amazon Prime Video — Pantalla",
+    "precio": 7000
+  },
+  {
+    "id": "prime-video-otra-modalidad",
+    "nombre": "Prime Video — Otra modalidad",
+    "precio": 5000
+  },
+  {
+    "id": "max-hbo-max",
+    "nombre": "Max / HBO Max",
+    "precio": 10000
+  },
+  {
+    "id": "disney-premium",
+    "nombre": "Disney+ — Premium",
+    "precio": 9000
+  },
+  {
+    "id": "disney-estandar",
+    "nombre": "Disney+ — Estándar",
+    "precio": 5900
+  },
+  {
+    "id": "paramount-pantalla",
+    "nombre": "Paramount+ — Pantalla",
+    "precio": 8000
+  },
+  {
+    "id": "vix-premium-pantalla",
+    "nombre": "ViX Premium — Pantalla",
+    "precio": 6000
+  },
+  {
+    "id": "crunchyroll-pantalla",
+    "nombre": "Crunchyroll — Pantalla",
+    "precio": 6000
+  },
+  {
+    "id": "plex-premium-pantalla",
+    "nombre": "Plex Premium — Pantalla",
+    "precio": 7000
+  },
+  {
+    "id": "jellyfin",
+    "nombre": "Jellyfin",
+    "precio": 9500
+  },
+  {
+    "id": "tele-latino",
+    "nombre": "Tele Latino",
+    "precio": 10000
+  },
+  {
+    "id": "viki-pantalla",
+    "nombre": "Viki — Pantalla",
+    "precio": 8500
+  },
+  {
+    "id": "youtube-premium-familiar",
+    "nombre": "YouTube Premium — Familiar",
+    "precio": 17500
+  },
+  {
+    "id": "youtube-premium-invitacion",
+    "nombre": "YouTube Premium — Invitación",
+    "precio": 16000
+  },
+  {
+    "id": "spotify-3-meses",
+    "nombre": "Spotify Premium — 3 meses",
+    "precio": 21000
+  },
+  {
+    "id": "spotify-6-meses",
+    "nombre": "Spotify Premium — 6 meses",
+    "precio": 39000
+  },
+  {
+    "id": "spotify-1-ano",
+    "nombre": "Spotify Premium — 1 año",
+    "precio": 83000
+  },
+  {
+    "id": "spotify-plan-regular",
+    "nombre": "Spotify Premium — Plan regular",
+    "precio": 15000
+  },
+  {
+    "id": "deezer-premium",
+    "nombre": "Deezer Premium",
+    "precio": 8000
+  },
+  {
+    "id": "combo-netflix-spotify",
+    "nombre": "Combo Netflix + Spotify",
+    "precio": 21000
+  },
+  {
+    "id": "gemini-ia-12-meses",
+    "nombre": "Gemini IA — 12 meses",
+    "precio": 33000
+  },
+  {
+    "id": "gemini-ia-1-mes",
+    "nombre": "Gemini IA — 1 mes",
+    "precio": 15000
+  },
+  {
+    "id": "chatgpt-go-compartida",
+    "nombre": "ChatGPT Go — Compartida",
+    "precio": 13000
+  },
+  {
+    "id": "chatgpt-plus",
+    "nombre": "ChatGPT Plus",
+    "precio": 24000
+  },
+  {
+    "id": "canva-pro-3-meses",
+    "nombre": "Canva Pro — 3 meses",
+    "precio": 12000
+  },
+  {
+    "id": "canva-pro",
+    "nombre": "Canva Pro",
+    "precio": 6000
+  },
+  {
+    "id": "office-365-1-ano",
+    "nombre": "Microsoft Office 365 — 1 año",
+    "precio": 19000
+  },
+  {
+    "id": "google-one-5tb",
+    "nombre": "Google One — 5TB",
+    "precio": 15000
+  },
+  {
+    "id": "filmora",
+    "nombre": "Filmora",
+    "precio": 20000
+  },
+  {
+    "id": "capcut-pro",
+    "nombre": "CapCut Pro",
+    "precio": 16000
+  },
+  {
+    "id": "duolingo-super",
+    "nombre": "Duolingo Super",
+    "precio": 21000
+  },
+  {
+    "id": "iptv-completa-6-meses",
+    "nombre": "IPTV — Completa 6 meses",
+    "precio": 36000
+  },
+  {
+    "id": "iptv-1-mes-pantalla",
+    "nombre": "IPTV — 1 mes/pantalla",
+    "precio": 9500
+  },
+  {
+    "id": "iptv-elite-1-ano",
+    "nombre": "IPTV Elite — 1 año",
+    "precio": 48000
+  },
+  {
+    "id": "directv-go-full-opcion-1",
+    "nombre": "DIRECTV GO Full — opción 1",
+    "precio": 19000
+  },
+  {
+    "id": "directv-go-full-opcion-2",
+    "nombre": "DIRECTV GO Full — opción 2",
+    "precio": 38000
+  },
+  {
+    "id": "flujo-tv-1-dia",
+    "nombre": "Flujo TV — 1 día",
+    "precio": 9500
+  },
+  {
+    "id": "xuper-tv-ilimitado",
+    "nombre": "XuperTV — TV ilimitado",
+    "precio": 20000
+  },
+  {
+    "id": "xuper-tv-android-7-dias",
+    "nombre": "XuperTV — Android 7 días",
+    "precio": 3000
+  },
+  {
+    "id": "win-sports-plus",
+    "nombre": "WIN Sports+",
+    "precio": 35000
+  },
+  {
+    "id": "surfshark-vpn",
+    "nombre": "Surfshark VPN",
+    "precio": 18000
+  },
+  {
+    "id": "xbox-game-pass",
+    "nombre": "Xbox Game Pass",
+    "precio": 48000
+  },
+  {
+    "id": "ea-fc-26-ps4",
+    "nombre": "EA SPORTS FC 26 — Digital PS4",
+    "precio": 93000
+  },
+  {
+    "id": "gta-v-digital",
+    "nombre": "Grand Theft Auto V — Digital",
+    "precio": 102000
+  },
+  {
+    "id": "steam-recargas",
+    "nombre": "Steam — Recargas y tarjetas",
+    "precio": null
+  },
+  {
+    "id": "playstation-recargas",
+    "nombre": "PlayStation — Recargas y contenido",
+    "precio": null
+  },
+  {
+    "id": "recargas-juegos",
+    "nombre": "Recargas para juegos",
+    "precio": null
+  },
+  {
+    "id": "celulares-nuevos-usados",
+    "nombre": "Celulares nuevos y usados",
+    "precio": null
+  },
+  {
+    "id": "accesorios-tecnologicos",
+    "nombre": "Accesorios tecnológicos",
+    "precio": null
+  },
+  {
+    "id": "hub-1-mes",
+    "nombre": "Pornhub / Hub — 1 mes",
+    "precio": 9500
+  }
+]

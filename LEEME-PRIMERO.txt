@@ -1,0 +1,54 @@
+KRMAVERSO STORE — ARCHIVOS DE CONFIGURACIÓN PARA RENDER
+
+IMPORTANTE:
+- Este paquete NO modifica tu repositorio ni tu tienda en GitHub.
+- En tu repositorio ya existen main.py y requirements.txt. Este kit incluye una copia de requirements.txt por consistencia, además de catalog.json, .env.example, render.yaml y esta guía.
+- Sube catalog.json y render.yaml a la RAÍZ del mismo repositorio donde está main.py (al mismo nivel, no dentro de una carpeta).
+- .env.example es solo una plantilla. NO la uses como archivo de secretos ni subas contraseñas reales a GitHub.
+- Los precios de catalog.json se copiaron de los valores que aparecían en tu tienda en el momento de preparar el kit. Verifícalos antes de aceptar pagos.
+- Los IDs son nuevos identificadores técnicos. La tienda HTML todavía no está conectada a la API, así que registro, referidos y descuentos aún NO funcionan en el sitio público.
+- El checkout fijo de Wompi no confirma pagos automáticamente. El pago debe validarse manualmente hasta integrar correctamente Wompi mediante su documentación oficial y webhook.
+
+PASO A: SUBIR ARCHIVOS
+1. Abre https://github.com/KrmaVerse/KrmaVerso-Store
+2. Pulsa Add file > Upload files.
+3. Sube catalog.json y render.yaml desde este paquete.
+4. Confirma que queden en la raíz junto a main.py y requirements.txt.
+5. Pulsa Commit changes.
+
+PASO B: CREAR CUENTA RENDER
+1. Abre https://render.com
+2. Pulsa Get Started / Sign Up.
+3. Elige continuar con GitHub y autoriza la conexión.
+4. En Render pulsa New + > PostgreSQL.
+5. Crea una base de datos llamada krmaverso-db. Elige una opción de pago que puedas mantener; revisa el precio y las condiciones vigentes antes de confirmar.
+6. Cuando esté creada, copia la Internal Database URL (no la publiques ni la envíes por chat).
+
+PASO C: CREAR EL SERVICIO WEB
+1. En Render pulsa New + > Web Service.
+2. Conecta el repositorio KrmaVerse/KrmaVerso-Store y la rama main.
+3. Root Directory: déjalo vacío (los archivos están en la raíz).
+4. Runtime: Python.
+5. Build Command: pip install -r requirements.txt
+6. Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
+7. En Environment añade:
+   DATABASE_URL = Internal Database URL de PostgreSQL
+   JWT_SECRET = una cadena aleatoria larga (mínimo 32 caracteres)
+   ADMIN_SECRET = otra cadena aleatoria larga (mínimo 24 caracteres)
+   CORS_ORIGINS = https://krmaverse.github.io
+8. Crea el servicio y espera a que termine el deploy.
+
+PASO D: COMPROBAR
+Abre en el navegador:
+https://TU-SERVICIO.onrender.com/health
+Debe responder: {"status":"ok"}
+Después abre:
+https://TU-SERVICIO.onrender.com/docs
+Debe aparecer la documentación de la API.
+
+SEGURIDAD
+- Nunca compartas DATABASE_URL, JWT_SECRET ni ADMIN_SECRET en mensajes, capturas o repositorios.
+- Si mandas captura, tapa los valores de las variables.
+- No marques pagos como recibidos sin verificar el pago real.
+- No anuncies descuentos como activos hasta conectar y probar el frontend y el backend.
+- Antes de producción hace falta revisar seguridad, concurrencia, privacidad, condiciones de distribución y el flujo real de pagos.
